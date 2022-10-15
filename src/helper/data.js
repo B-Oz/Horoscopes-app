@@ -6,12 +6,12 @@ import leo from "../assets/horoscope-leo.jpg";
 import virgo from "../assets/horoscope-virgo.jpg";
 import libra from "../assets/horoscope-libra.jpg";
 import scorpio from "../assets/horoscope-scorpio.jpg";
-import sagittarius from "../assets/horoscope-sagittarius.jpg";
+import sagittarius from "../assets/horoscopes-sagittarius.jpg";
 import capricorn from "../assets/horoscope-capricorn.jpg";
 import aquarius from "../assets/horoscope-aquarius.jpg";
 import pisces from "../assets/horoscope-pisces.jpg";
 
-export const data = [
+export const horoscopes = [
   {
     id: 1,
     title: "ARIES",
