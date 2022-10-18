@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import "./Card.css";
 
 const Card = ({ title, date, quartet, element, birthstones, desc, image }) => {
-  const [Showcard, setShowcard] = useState(true);
+  const [Showcard, setShowcard] = useState(false);
   return (
     <main>
       <div onClick={() => setShowcard(!Showcard)}>
         {Showcard ? (
-          <div className="card" style={{ width: "18rem" }}>
-            <img src={image} alt="..." />
+          <div
+            className="card"
+            style={{ width: "18rem", background: "cadetblue" }}
+          >
+            <img src={image} alt="horoscopes" />
           </div>
         ) : (
           <div className="card" style={{ width: "18rem" }}>
